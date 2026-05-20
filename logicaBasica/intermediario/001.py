@@ -18,7 +18,7 @@ print(f"Cada amigo deve pagar: R$ {valor_por_pessoa:.2f}")
 
 
 
-# 2. Conversor de Tempo (Minutos para Horas)
+## 2. Conversor de Tempo (Minutos para Horas)
 
 minutos_totais = int(input("Digite o tempo em minutos: "))
 
@@ -28,23 +28,23 @@ minutos = minutos_totais % 60
 print(f"{minutos_totais} minutos equivalem a {horas} horas e {minutos} minutos.")
 
 
-# 3. Calculadora de Salário com Desconto
+## 3. Calculadora de Salário com Desconto
 
 valor_hora = float(input("Digite o valor ganho por hora: "))
-horas_trabalhadas = float(input("Digite a quantidade de horas trabalhadas no mês: "))
+horas_trabalhadas = float(input("Digite a quantidade de horas trabalhadas no mes: "))
 
 salario_bruto = valor_hora * horas_trabalhadas
 desconto = salario_bruto * 0.08
 salario_liquido = salario_bruto - desconto
 
-print(f"\nSalário Bruto: R$ {salario_bruto:.2f}")
-print(f"Desconto de Impostos: R$ {desconto:.2f}")
-print(f"Salário Líquido: R$ {salario_liquido:.2f}")
+print(f"\n salario bruto: R$ {salario_bruto:.2f}")
+print(f"\n desconto de impostos: R$ {desconto:.2f}")
+print(f"\n salario liquido: R$ {salario_liquido:.2f}")
 
 
 # 4. Consumo de Combustível de Frota
 
-distancia = float(input("Digite a distância da viagem (km): "))
+distancia = float(input("Digite a distancia da viagem (km): "))
 consumo = float(input("Digite o consumo do carro (km por litro): "))
 preco_gasolina = float(input("Digite o preço do litro da gasolina: "))
 
@@ -75,14 +75,17 @@ nota4 = float(input("Digite a 4ª nota: "))
 
 media = (nota1 + nota2 + nota3 + nota4) / 4
 
-print("\n========== BOLETIM ==========")
+print("\n BOLETIM ")
 print(f"Aluno:      {nome}")
 print(f"Disciplina: {disciplina}")
-print("-----------------------------")
+print("\n")
 print(f"Nota 1:     {nota1:.1f}")
 print(f"Nota 2:     {nota2:.1f}")
 print(f"Nota 3:     {nota3:.1f}")
 print(f"Nota 4:     {nota4:.1f}")
-print("-----------------------------")
+print("\n")
 print(f"Média:      {media:.2f}")
-print("================================")
+print("\n")
+
+
+# fsdfsdafsa
